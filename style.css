@@ -1,0 +1,336 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+/* .navbar-nav {
+  margin-left: auto;
+}  This moves my content to the right to acheive same thing*/
+
+
+/* CSS HEX  COLOR PALLATE 
+--straw: #dbd56eff;
+--asparagus: #88ab75ff;
+--dark-purple: #22031fff;
+--cool-gray: #7c809bff;
+--black-olive: #303a2bff; 
+--Hover Orange: #F6AE2D*/
+
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body {
+  position: relative;
+  background-color: #212529; 
+  background-image: var(--bs-gradient);
+
+}
+
+
+#home {
+  background-image: 
+    linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)),
+
+    url("img/pathway.jpg"); 
+/*     min-height:100%; */
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center; 
+  width: 100%; 
+  padding: 20%;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(80,0,0);
+/*   height: 80vh;  */
+
+/*   Hi Dennis removing this line appears to fix the hero background on mobile. Thanks! - TB */   
+  background-repeat: no-repeat;
+}
+
+.nav-link:hover {
+  background-color: #F69620  ;
+  border-radius: 5PX;
+  color:  #22031fff;
+}
+
+.active:hover {
+  color:  #22031fff;
+}
+/* img.background {
+  width: 100%;
+  height: 160px;
+} */
+
+img.avatar {
+  border-radius: 50%;
+  margin-top: 15px;
+ 
+  width: 80px;
+  
+  border: 4px solid #fff;
+}
+
+.avatarBorder {
+  text-align: center;
+}
+.background_Mission h2 {
+  padding-top: 5%;
+}
+.background_Mission h2, h3, h4{
+  text-shadow: 2px 2px 5px rgb(20,0,20); 
+  
+
+}
+,.background_Mission h4, h5 {
+  background-position: right;
+}
+.background_Mission h5 {
+  text-transform:capitalize;
+  font-size: 1.25em;
+  
+}
+h2 {
+  text-transform: uppercase;
+}
+
+.background_Mission {
+  background-image: url(img/brick-Wall_gray.jpg);
+  background-size:cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  margin-top: -10%;
+
+  /*   text-shadow: 2px 2px 5px rgb(20,0,20); */
+}
+/* .underground-image {
+  background: url(img/yellowPipes.jpg) no-repeat center;
+  background-size: cover;
+  height: 50vh;
+   position: relative;
+   
+}
+ */
+/* .underground-image2 {
+  background: url(img/ManCave-layers-1.jpg) no-repeat center;
+  background-size: cover;
+  position:absolute;
+  height:2000px;
+  width: 100vw;
+
+  /* position: relative;
+ 
+} */
+
+
+h2 img {
+  opacity: .4;
+  position:absolute;
+  padding-left: 20%;
+
+}
+/* .background_Mission img {
+  height: 50vh;
+} */
+/* .skillsImage {
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)), url(img/ManCave-layers-1.jpg);
+  background-size:cover;
+  background-position: center;
+  width: 10%;
+  z-index: 1;
+  background-repeat: no-repeat;
+  margin-top: -100px;
+
+} */
+
+
+.background_Skills {
+  background-image: url(img/Designer_graphic_small.jpg);
+  background-size:cover;
+  background-position:top;
+  width: 100%;
+
+  color: black;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(20,0,20);
+  background-repeat: no-repeat;
+
+
+  
+} 
+.background_Skills h2, .background_Inspiration h2 {
+  
+  padding-bottom: 5%;
+}
+
+.card-footer .price {
+  position: absolute;
+  right: 20px;
+}
+.minor-article {
+  font-size: 14px;
+  margin-top: 20px;
+  
+}
+.minor-article h4 {
+  font-size: 16px;
+}
+
+.background_Inspiration {
+/*   background-image: linear-gradient(180deg, white, black, #7c809bff, #303a2bff); */
+  background-color: darkgray;
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  padding: 0%;
+  color: black;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(20,0,20);
+  height: 80vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  
+  
+}
+/* .card {
+  width: 200px;
+  display: inline;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.card-img-top {
+  width: 20px;
+  height: auto;
+  object-fit: contain;
+  border: blue solid 3px;
+
+} */
+
+.carousel-item img {
+  object-fit:contain;
+  object-position: 20%;
+  height: 20%;
+  overflow: hidden;
+}
+.carousel-item:after {
+  content:"";
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(0,0,0,0.2);
+
+}
+.carousel-caption {
+  z-index: 1;
+  color: #22031fff ;
+  background:rgba(0,0,0,0.2);
+} 
+
+
+
+section {
+  padding: 0;
+
+}
+#skills-section h2{
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#mission-target, 
+#skills-target,
+#inspiration-target,
+#contact-target {
+  position: relative;
+  top: -100px;
+  
+  
+}
+.skills-target {
+  position: relative;
+  top: -100px;
+}
+.setWidth {
+  width: 25vw;
+}
+
+#contact-section {
+  
+  background-color: #f69620;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0%;
+  color: black;
+  text-align: center;
+  text-shadow: 18px 18px 10px rgb(20,0,20);
+/*   height: 100%; */
+  background-image: url(img/conference.png);
+  background-size: 20%;
+  background-position:left;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+  height:20vh;
+  
+}
+
+#contact-section h2 {
+  
+  padding-top: 2%;
+}
+#contact-section img {
+  padding: 10px;
+}
+
+}
+#footer-section {
+  background-position: center;
+  width: 100%;
+
+  text-align: center;
+  
+  
+}
+#footer-section p {
+  padding: 2%;
+  color: white;
+  text-align: center;
+}
+
+
+.card {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.button {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(1, 9, 1);
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+}
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(20, 45, 48, .8);
+}
+
+a:hover{
+-webkit-box-shadow: 0px 0px 100px 0px rgba(255,165,0,1);
+-moz-box-shadow: 0px 0px 100px 0px rgba(255,165,0,1);
+box-shadow: 0px 0px 100px 0px rgba(255,165,0,1);
+}
