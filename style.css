@@ -146,7 +146,7 @@ h2 img {
 
 
 .background_Skills {
-  background-image: url(img/Designer_graphic_small.jpg);
+  background-color: #fff;
   background-size:cover;
   background-position:top;
   width: 100%;
@@ -154,8 +154,7 @@ h2 img {
   color: black;
   text-align: center;
   text-shadow: 2px 2px 5px rgb(20,0,20);
-  background-repeat: no-repeat;
-
+  
 
   
 } 
