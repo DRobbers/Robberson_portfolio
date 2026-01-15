@@ -143,18 +143,26 @@ h2 img {
   margin-top: -100px;
 
 } */
+p {
+  width: 75%; 
+  padding-left: 25%;
 
+}
 
 .background_Skills {
-  background-color: black;
+  font-size: 18px;
+  padding-bottom: 25%;
+
+
   background-size:cover;
   background-position:top;
   width: 100%;
 
-  color: black;
+
+  color: white;
   text-align: center;
   text-shadow: 2px 2px 5px rgb(20,0,20);
- 
+  background: url(img/bunker_rock.jpeg) no-repeat center;
   }
   
 .background_Skills h2, .background_Inspiration h2 {
