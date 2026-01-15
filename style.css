@@ -80,7 +80,7 @@ img.avatar {
   
 
 }
-,.background_Mission h4, h5 {
+.background_Mission h4, h5 {
   background-position: right;
 }
 .background_Mission h5 {
@@ -146,7 +146,7 @@ h2 img {
 
 
 .background_Skills {
-  /*background-color: black;
+  background-color: black;
   background-size:cover;
   background-position:top;
   width: 100%;
@@ -154,16 +154,7 @@ h2 img {
   color: black;
   text-align: center;
   text-shadow: 2px 2px 5px rgb(20,0,20);
-  */
-  
-    /* Old browsers */
-    background: #141E30;
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(-45deg, #35577D, #141E30);
-    margin: 0;
-    padding: 0;
+ 
   }
   
 .background_Skills h2, .background_Inspiration h2 {
@@ -295,7 +286,7 @@ section {
   padding: 10px;
 }
 
-}
+
 #footer-section {
   background-position: center;
   width: 100%;
