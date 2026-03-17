@@ -218,6 +218,7 @@ p {
   transition: all 0.35s ease;
   text-align: center;
   padding: 10px;
+  border: 2px solid black;
   
 }
 
