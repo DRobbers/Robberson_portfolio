@@ -101,6 +101,7 @@ h2 {
   background-repeat: no-repeat;
   height: 60vh;
   margin-top: -10%;
+  border: black solid;
 
   /*   text-shadow: 2px 2px 5px rgb(20,0,20); */
 }
