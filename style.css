@@ -200,7 +200,7 @@ p {
   
   
 }
-.card,
+.card-mission,
 .box {
   min-height: 140px;
   height: clamp(140px, 20vw, 160px);
